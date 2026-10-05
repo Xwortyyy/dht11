@@ -7,7 +7,7 @@ DHT dht(4, DHT11);
 void setup() {
   Serial.begin(115200);
   dht.begin();
-  delay(3000); 
+  delay(2000); 
 }
 
 void loop() {
@@ -22,5 +22,5 @@ void loop() {
   Serial.print(temperature);
   Serial.println("°C");
 
-  delay(3000); 
+  delay(2000); 
 }
